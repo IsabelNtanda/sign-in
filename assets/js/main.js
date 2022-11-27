@@ -2,7 +2,6 @@
 
 const password=document.getElementById('password')
 const eyes =document.getElementById('eyes')
-
 function eyeclick(){
  
     let inputTypePassword = password.type == 'password'
@@ -23,3 +22,4 @@ function eyeclick(){
             eyes.setAttribute('src', '../assets/images/eyes.svg')
         }
 }
+
