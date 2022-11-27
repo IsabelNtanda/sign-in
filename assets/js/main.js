@@ -1,5 +1,4 @@
 //seleção do html
-
 const password=document.getElementById('password')
 const eyes =document.getElementById('eyes')
 function eyeclick(){
@@ -22,4 +21,6 @@ function eyeclick(){
             eyes.setAttribute('src', '../assets/images/eyes.svg')
         }
 }
+
+
 

@@ -295,15 +295,20 @@ form {
 
   @media (max-width:770px) {
     .content-right{
-    display: none;}
+    display: none;
+  }
     .content-left{
     margin: auto;
-  width: 100%;}
+  width: 100%;
+}
   .left-form{
-  width: 100%;}
-  
-  
-  
+  width: 100%;
+}
+.content-left .header-left{
+display: flex;
+flex-direction: column;}
+
   }
+
   
 
